@@ -1,0 +1,140 @@
+/*PC表示*/
+@media (max-width: 1079px) {
+ .tablet_none {
+    display: none;
+  }
+  .Header {
+      position: relative;
+  }
+}
+@media (min-width: 1080px) {
+  .sp_none {
+    display: none;
+  }
+  .pc_none{
+    display: none;
+  }
+}
+@media (max-width: 1025px) {
+  .About {
+  display: flex;
+  flex-direction: column;
+}
+.potepan  {
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom:20px;
+}
+.About-button {
+    margin-bottom: 50px;
+}
+}
+/*スマホ表示*/
+@media (max-width: 768px) {
+ .Headerlogo {
+    display: none;
+}
+ .Headerlogo_sp img {
+     width: 175px;
+     padding-bottom: 10px;
+     margin-top: 15px;
+     margin-left: 30px;
+ }
+ .FirstView_main_image_sp {
+     display: block;
+     background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg");
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 800px;
+     box-sizing: border-box;
+}
+ .FirstView {
+     height: 1130px;
+ }
+ 
+ 
+ .firstview-title_sp {
+     padding-top:380px;
+}
+.firstview-title .firstview-titles  {
+     font-size: 25px;
+     font-family: sans-serif;
+     display: inline-block;
+     text-align: center;
+}
+.firstview-Containar {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.FirstViewContent_images {
+    width: 100%;
+}
+.FirstViewContent_image_big {
+    width: 40%;
+}
+.FirstViewContent_image_small {
+  width: 27% ;
+}
+.FirstViewContent_buttons {
+    width: 100%;
+}
+.FirstViewContent_buttons a {
+    display: block;
+    text-align: center;
+}
+.document {
+    margin-top: 10px;
+}
+.FirstViewCaption {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.AboutWrapper {
+  height: 380px;
+}
+.About {
+  padding-left: 15px;
+  padding-right: 15px; 
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.About_title {
+  margin-top: 0;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.About_title span {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.potepan {
+  width: 100%;
+}
+.potepan p {
+  margin-top: 15px;
+}
+.content {
+    margin-top: 20px;
+}
+}
+
+@media (min-width: 769px) {
+.Headerlogo_sp{
+  display: none;
+}
+}
+
+
+
